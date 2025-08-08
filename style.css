@@ -1,0 +1,89 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: #1e1e1e;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.chat-container {
+  width: 100%;
+  max-width: 700px;
+  padding: 20px;
+}
+
+h1 {
+  text-align: center;
+  color: #00ffd0;
+  margin-bottom: 10px;
+}
+
+.chat-box {
+  background: #2e2e2e;
+  padding: 20px;
+  border-radius: 10px;
+  height: 500px;
+  overflow-y: auto;
+  box-shadow: 0 0 10px rgba(0,0,0,0.3);
+}
+
+.message {
+  margin-bottom: 20px;
+  line-height: 1.5;
+}
+
+.user {
+  text-align: right;
+  color: #00ffd0;
+}
+
+.bot {
+  text-align: left;
+  color: #eee;
+}
+
+pre {
+  background: #111;
+  padding: 10px;
+  border-radius: 6px;
+  overflow-x: auto;
+  white-space: pre-wrap;
+  word-break: break-word;
+  color: #0f0;
+  margin-top: 10px;
+}
+
+.input-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+textarea {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  border: none;
+  background: #2e2e2e;
+  color: #fff;
+  font-size: 16px;
+  resize: none;
+  height: 60px;
+}
+
+button {
+  background: #00ffd0;
+  border: none;
+  border-radius: 8px;
+  padding: 0 20px;
+  font-size: 24px;
+  color: #000;
+  cursor: pointer;
+}
+button:hover {
+  background: #00c9a7;
+}
